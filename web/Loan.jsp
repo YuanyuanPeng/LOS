@@ -11,6 +11,25 @@
     <title>Title</title>
 </head>
 <body>
+<table border="1">
+    <tr>
+        <th>Loan Id</th>
+        <th>User</th>
+        <th>Amount</th>
+        <th>Term</th>
+        <th>Salary</th>
+        <th>Status</th>
 
+    </tr>
+
+<tr>
+    <td>1001</td>
+    <td>Mike</td>
+    <td>1999.99</td>
+    <td>24 months</td>
+    <td>253.87</td>
+    <td>Approved</td>
+</tr>
+</table>
 </body>
 </html>

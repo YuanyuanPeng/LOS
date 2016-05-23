@@ -7,24 +7,62 @@ import com.google.appengine.api.users.UserServiceFactory;
 public class MyUser {
     private String Gmail;
     private String Id;
-    private String FirstName;
-    private String LastName;
+    private String  Name;
+
     private String Addr;
     private String Role;
 
     public MyUser(){
-        
+
     }
-    public MyUser(String gmail, String id, String fistName, String lastName, String addr, String role){
+    public MyUser(String gmail, String id, String  name, String addr, String role){
         Gmail=gmail;
         Id=id;
-        FirstName=fistName;
-        LastName=lastName;
+        Name=name;
+
         Addr=addr;
         Role=role;
 
     }
 
+    public String getGmail() {
+        return Gmail;
+    }
+
+    public void setGmail(String gmail) {
+        Gmail = gmail;
+    }
+
+    public String getId() {
+        return Id;
+    }
+
+    public void setId(String id) {
+        Id = id;
+    }
 
 
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String name) {
+        Name = name;
+    }
+
+    public String getAddr() {
+        return Addr;
+    }
+
+    public void setAddr(String addr) {
+        Addr = addr;
+    }
+
+    public String getRole() {
+        return Role;
+    }
+
+    public void setRole(String role) {
+        Role = role;
+    }
 }
